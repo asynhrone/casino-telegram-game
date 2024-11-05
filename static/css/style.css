@@ -1,0 +1,43 @@
+#video-container {
+    width: 600px;
+    height: 300px;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+}
+#video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#winner-message {
+    margin-top: 20px;
+    font-size: 24px;
+    color: green;
+}
+#roulette-table {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+.number {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid black;
+    margin: 2px;
+    cursor: pointer;
+}
+.red {
+    background-color: red;
+    color: white;
+}
+.black {
+    background-color: black;
+    color: white;
+}
+.green {
+    background-color: green;
+    color: white;
+}
